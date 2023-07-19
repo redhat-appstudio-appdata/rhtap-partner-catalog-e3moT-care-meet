@@ -11,7 +11,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ablock-tenant/rhtap-partner-catalog/partner-catalog@sha256:1d671ed76937acd7c8b4503f52bda8a6116c46e9d6b48ee217095cee66095021
+      - image: quay.io/redhat-user-workloads/ablock-tenant/rhtap-partner-catalog/partner-catalog@sha256:c7de6735b76c2970344fc972a0d5af0804ee1e5ade2427868f2bf6abae61b1bf
         name: my-java-springboot
         resources: {}
 status: {}
