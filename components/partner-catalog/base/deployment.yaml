@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: partner-catalog
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/ablock-tenant/rhtap-partner-catalog/partner-catalog@sha256:a61555e1341fdbfc3862acd0bbd9c9261b7d80e36d08104c534646660f6d12c7
+      - image: quay.io/redhat-user-workloads/ablock-tenant/rhtap-partner-catalog/partner-catalog@sha256:cf8ee305535937533df128478d84772a89fca5232ab6ded40760f608112a4cdd
         name: my-java-springboot
         ports:
         - containerPort: 8081
